@@ -40,7 +40,8 @@ def brain_progression():
         if user_answer == correct_answer:
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. " +
+            f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 

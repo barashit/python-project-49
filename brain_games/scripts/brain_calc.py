@@ -13,7 +13,7 @@ def generate_question():
     num2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
     question = f"{num1} {operation} {num2}"
-    correct_answer = eval(f"{num1} {operation} {num2}")  # вычисляем правильный ответ
+    correct_answer = eval(f"{num1} {operation} {num2}")
     return question, correct_answer
 
 
@@ -35,7 +35,8 @@ def brain_calc():
         if user_answer == correct_answer:
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;. "
+            f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 
