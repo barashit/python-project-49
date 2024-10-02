@@ -2,8 +2,10 @@ import random
 
 ROUNDS_TO_WIN = 3
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def main():
     print("Welcome to the Brain Games!")
@@ -30,6 +32,6 @@ def main():
 
     print(f"Congratulations, {name}!")
 
+
 if __name__ == "__main__":
     main()
-

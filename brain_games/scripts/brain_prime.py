@@ -1,10 +1,12 @@
 import random
 
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
     return name
+
 
 def is_prime(n):
     if n < 2:
@@ -13,6 +15,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
 
 def brain_prime():
     name = welcome_user()
@@ -35,9 +38,10 @@ def brain_prime():
 
     print(f"Congratulations, {name}!")
 
+
 def main():
     brain_prime()
 
+
 if __name__ == "__main__":
     main()
-

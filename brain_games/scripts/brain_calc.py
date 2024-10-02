@@ -1,10 +1,12 @@
 import random
 
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
     return name
+
 
 def generate_question():
     num1 = random.randint(1, 100)
@@ -13,6 +15,7 @@ def generate_question():
     question = f"{num1} {operation} {num2}"
     correct_answer = eval(f"{num1} {operation} {num2}")  # вычисляем правильный ответ
     return question, correct_answer
+
 
 def brain_calc():
     name = welcome_user()
@@ -38,9 +41,10 @@ def brain_calc():
 
     print(f"Congratulations, {name}!")
 
+
 def main():
     brain_calc()
 
+
 if __name__ == "__main__":
     main()
-

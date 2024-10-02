@@ -1,10 +1,12 @@
 import random
 
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
     return name
+
 
 def generate_progression():
     start = random.randint(1, 10)
@@ -18,6 +20,7 @@ def generate_progression():
     progression[missing_index] = '..'  # заменяем число на '..'
 
     return progression, correct_answer
+
 
 def brain_progression():
     name = welcome_user()
@@ -43,9 +46,10 @@ def brain_progression():
 
     print(f"Congratulations, {name}!")
 
+
 def main():
     brain_progression()
 
+
 if __name__ == "__main__":
     main()
-
