@@ -1,12 +1,7 @@
 import random
+from brain_games.game_general import run_game
 
-
-def welcome_user():
-    print("Welcome to the Brain Games!")
-    name = input("May I have your name? ")
-    print(f"Hello, {name}!")
-    return name
-
+GAME_RULES = 'Answer "yes" if the number is prime, otherwise answer "no".'
 
 def is_prime(n):
     if n < 2:
@@ -17,34 +12,18 @@ def is_prime(n):
     return True
 
 
-def brain_prime():
-    name = welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    rounds = 3
-
-    for _ in range(rounds):
-        question = random.randint(1, 100)
-        print(f"Question: {question}")
-        correct_answer = "yes" if is_prime(question) else "no"
-
-        user_answer = input("Your answer: ").strip().lower()
-
-        if user_answer == correct_answer:
-            print("Correct!")
-        else:
-            print(
-                f"'{user_answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
-            )
-
-            print(f"Let's try again, {name}!")
-            return
-
-    print(f"Congratulations, {name}!")
+def generate_question():
+    question = random.randint(1, 100)
+    correct_answer = "yes" if is_prime(question) else "no"
+    return question, correct_answer
 
 
 def main():
-    brain_prime()
+    print("Welcome to the Brain Games!")
+    name = input("May I have your name? ").strip()
+    print(f"Hello, {name}!")
+    print(GAME_RULES)
+    run_game(generate_question)
 
 
 if __name__ == "__main__":
