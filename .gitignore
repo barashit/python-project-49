@@ -1,1 +1,6 @@
 .venv/
+dist/
+calc.cast
+gcd.cast
+new_session.cast
+__pycache__/
