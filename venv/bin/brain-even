@@ -1,6 +1,5 @@
-#!/home/lili/dev/hexlet/python-project-49/venv/bin/python
-import sys
+#!/usr/bin/env python
 from brain_games.scripts.brain_even import main
 
 if __name__ == '__main__':
-    sys.exit(main())
+    main()

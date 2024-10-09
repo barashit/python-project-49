@@ -1,0 +1,125 @@
+[33mcommit f8f1240912f1428c99731b43c5713bc60c35d325[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Oct 8 20:30:32 2024 +0300
+
+    fixed errors
+
+[33mcommit a361637c02b801bfee3ffa853ab89ce3d253e2f0[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Oct 8 19:49:49 2024 +0300
+
+    Fixed README file amd venv/
+
+[33mcommit 64c992c978c71f6116b2d0ab8eb32dd51d8f1b90[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Oct 8 19:48:30 2024 +0300
+
+    Add .gitignore file
+
+[33mcommit 5c68ccd9ae22e538ae5651109117c6452abf44f9[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Oct 8 19:44:07 2024 +0300
+
+    Add stub file
+
+[33mcommit 4111844183a5b39657853f84c79bda599cd2e796[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Oct 8 18:23:26 2024 +0300
+
+    code refactoring: putting the general part into a separate file
+
+[33mcommit f1ce06fab00d0838334f3f39a166c15cd73ee456[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Fri Oct 4 16:28:44 2024 +0300
+
+    Style errors fixed-4
+
+[33mcommit 55e26bab666cc86303d266f5a34de2f5a8d32bf2[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Wed Oct 2 19:13:07 2024 +0300
+
+    Styles errors fixed-3
+
+[33mcommit 02aa4aac6e12b922a7a96bca5d667128b99acd7c[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Wed Oct 2 18:55:27 2024 +0300
+
+    Style error fixed-2
+
+[33mcommit 176b8fd54974ec12525a9d510df253bc1a465e8e[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Wed Oct 2 18:08:45 2024 +0300
+
+    Style errors fixed
+
+[33mcommit aba1cac2ef13b3b12ee570b813269e8264213417[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Sun Sep 29 16:18:09 2024 +0300
+
+    Rewrating README and pyproject
+
+[33mcommit 6d0eaee3fa5845fc1effef545bee1eebb33ba225[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Sun Sep 29 16:03:50 2024 +0300
+
+    Add new games: calc, gcd, progression, prime
+
+[33mcommit 6718d1be6f5795a8a0aefac8bb446973f1a675d1[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Sun Sep 29 15:53:08 2024 +0300
+
+    Add new games: calc, gcd, progression and prime and asciinema files
+
+[33mcommit 091797ff8f446a9c0e035e67c9dd99ec172a9816[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Thu Sep 19 20:23:13 2024 +0300
+
+    Add brain-even game
+
+[33mcommit c12f755d91a67c5618ceec0af78b1ae59656a2a0[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Thu Sep 19 18:16:22 2024 +0300
+
+    add flake8
+
+[33mcommit 78215961544a29935cb306bfa41ffb5b11345ff1[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Wed Sep 18 18:21:02 2024 +0300
+
+    Add name reques
+
+[33mcommit 8460946fd01580cd687ef797c6f14364c195d3d9[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Sep 17 19:42:44 2024 +0300
+
+    Change Makefile, add package-install, publish, build
+
+[33mcommit e486962d98e37645038c39c6d3c4ba1e391af15c[m
+Author: barashit <prostopesna74@gmail.com>
+Date:   Tue Sep 17 18:13:39 2024 +0300
+
+    add mainfile and .gitignore
+
+[33mcommit 3a44dd40ff47f9b2bd6faadba7ebfa31c8559993[m
+Author: barashit <137402165+barashit@users.noreply.github.com>
+Date:   Sun May 19 12:53:54 2024 +0300
+
+    Update hexlet-check.yml
+
+[33mcommit 789df26f831779f8f36e4f448ee03342bae23d13[m
+Author: barashit <137402165+barashit@users.noreply.github.com>
+Date:   Thu May 16 19:01:31 2024 +0300
+
+    Add README.md
+
+[33mcommit 5f1a46df70f581def1c1f6d631dc494fdfccd4c7[m
+Author: barashit <137402165+barashit@users.noreply.github.com>
+Date:   Thu May 16 19:01:30 2024 +0300
+
+    Add README.md
+
+[33mcommit 7dba73fef9ccc60e4a8cee9a1ba796b29d1f8541[m
+Author: barashit <137402165+barashit@users.noreply.github.com>
+Date:   Thu May 16 19:01:29 2024 +0300
+
+    Add hexlet-check.yml

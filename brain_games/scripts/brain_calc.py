@@ -1,6 +1,7 @@
 import random
 from brain_games.game_general import run_game
 
+
 GAME_RULES = 'What is the result of the expression?'
 
 def generate_question():
