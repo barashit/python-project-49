@@ -19,9 +19,7 @@ def generate_question():
     return question, correct_answer
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = input("May I have your name? ").strip()
-    print(f"Hello, {name}!")
+    name = welcome_user()
     print(GAME_RULES)
     run_game(generate_question)
 
