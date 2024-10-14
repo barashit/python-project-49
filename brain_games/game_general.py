@@ -1,4 +1,4 @@
-def run_game(generate_round_data, rounds=5):
+def run_game(generate_round_data, rounds=3):
 
     for _ in range(rounds):
         question, correct_answer = generate_round_data()
