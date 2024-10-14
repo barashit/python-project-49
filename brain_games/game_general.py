@@ -15,5 +15,5 @@ def run_game(generate_round_data, rounds=3):
             print(f"Let's try again!")
             return
 
-    print(f"Congratulations!")
+    print(f"Congratulations, {name}!"")
 
