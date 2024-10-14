@@ -6,7 +6,7 @@ import sys
 from brain_games.game_general import run_game
 from brain_games.cli import welcome_user
 
-ROUNDS_TO_WIN = 5
+ROUNDS_TO_WIN = 3
 GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def is_even(number):
