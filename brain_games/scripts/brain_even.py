@@ -20,7 +20,7 @@ def generate_question():
 def main():
     name = welcome_user()
     print(GAME_RULES)
-    run_game(generate_question, name)
+    run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
 
 if __name__ == "__main__":
     main()
