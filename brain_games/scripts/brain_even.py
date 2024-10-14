@@ -1,8 +1,8 @@
-#!/home/lili/dev/hexlet/python-project-49/.venv/bin/python
-
+#!/usr/bin/env python
 
 
 import random
+import sys
 from brain_games.game_general import run_game
 from brain_games.cli import welcome_user
 
@@ -22,6 +22,7 @@ def main():
     name = welcome_user()
     print(GAME_RULES)
     run_game(generate_question)
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
