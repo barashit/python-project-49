@@ -2,7 +2,6 @@
 
 
 import random
-import sys
 from brain_games.game_general import run_game
 from brain_games.cli import welcome_user
 
@@ -21,8 +20,7 @@ def generate_question():
 def main():
     name = welcome_user()
     print(GAME_RULES)
-    run_game(generate_question)
-    sys.exit(0)
+    run_game(generate_question, name)
 
 if __name__ == "__main__":
     main()
