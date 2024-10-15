@@ -1,7 +1,11 @@
+#!/usr/bin/env python
+
 import random
 import math
 from brain_games.game_general import run_game
+from brain_games.cli import welcome_user
 
+ROUNDS_TO_WIN = 3
 GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 def generate_question():
@@ -15,11 +19,9 @@ def generate_question():
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = input("May I have your name? ").strip()
-    print(f"Hello, {name}!")
+    name = welcome_user()
     print(GAME_RULES)
-    run_game(generate_question)
+    run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
 
 
 if __name__ == "__main__":
