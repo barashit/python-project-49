@@ -8,6 +8,7 @@ from brain_games.cli import welcome_user
 ROUNDS_TO_WIN = 3
 GAME_RULES = 'What is the result of the expression?'
 
+
 def generate_question():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)

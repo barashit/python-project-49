@@ -16,4 +16,3 @@ def run_game(generate_round_data, name, rounds=3):
             return
 
     print(f"Congratulations, {name}!")
-

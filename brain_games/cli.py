@@ -5,4 +5,3 @@ def welcome_user():
     name = input("May I have your name? ").strip()
     print(f"Hello, {name}!")
     return name
-
