@@ -7,6 +7,7 @@ from brain_games.cli import welcome_user
 ROUNDS_TO_WIN = 3
 GAME_RULES = 'What number is missing in the progression?'
 
+
 def generate_progression():
     start = random.randint(1, 10)
     step = random.randint(1, 5)
@@ -16,8 +17,8 @@ def generate_progression():
     missing_index = random.randint(0, length - 1)
 
     correct_answer = str(progression[missing_index])
-    progression[missing_index] = '..' 
-    question = ' '.join(map(str, progression))   
+    progression[missing_index] = '..'
+    question = ' '.join(map(str, progression))
 
     return question, str(correct_answer)
 
