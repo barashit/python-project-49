@@ -5,7 +5,7 @@ from brain_games.game_general import run_game
 from brain_games.cli import welcome_user
 
 ROUNDS_TO_WIN = 3
-GAME_RULES = 'Answer "yes" if the number is prime, otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if the number is prime. Otherwise answer "no".'
 
 def is_prime(n):
     if n < 2:
