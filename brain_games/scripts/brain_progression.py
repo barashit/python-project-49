@@ -25,7 +25,7 @@ def generate_progression():
 def main():
     name = welcome_user()
     print(GAME_RULES)
-    run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
+    run_game(generate_progression, name, rounds=ROUNDS_TO_WIN)
 
 
 if __name__ == "__main__":
