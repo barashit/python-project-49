@@ -23,8 +23,8 @@ def generate_question():
 
 
 def main():
-    name = welcome_user()
     print(GAME_RULES)
+    name = welcome_user()
     run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
 
 
