@@ -1,4 +1,0 @@
-#!/home/lili/dev/hexlet/python-project-49/venv/bin/python
-
-from brain_games import main 
-main() 
