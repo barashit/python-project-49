@@ -1,8 +1,0 @@
-[flake8]
-ignore = E501,W503,E251,W504,E201,E202,E265
-max-line-length = 120 
-exclude = 
-    .venv/,
-    __pycache__/,
-    code/venv/
-    venv/
