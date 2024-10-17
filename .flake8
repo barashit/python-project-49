@@ -5,4 +5,4 @@ exclude =
     .venv/,
     __pycache__/,
     code/venv/
-    venv/*
+    venv/
