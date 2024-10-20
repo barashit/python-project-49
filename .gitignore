@@ -7,3 +7,6 @@ __pycache__/
 dist
 venv
 brain_games/__pycache__/
+calc.cast
+gcd.cast
+new_session.cast
