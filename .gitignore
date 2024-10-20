@@ -6,3 +6,4 @@ new_session.cast
 __pycache__/
 dist
 venv
+brain_games/__pycache__/
