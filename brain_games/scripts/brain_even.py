@@ -1,23 +1,8 @@
 #!/usr/bin/env python
 
-
-import random
-from brain_games.game_general import run_game
+from brain_games.game_general import run_game, ROUNDS_TO_WIN
 from brain_games.cli import welcome_user
-
-ROUNDS_TO_WIN = 3
-GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
-
-
-def is_even(number):
-    return number % 2 == 0
-
-
-def generate_question():
-    number = random.randint(1, 100)
-    question = str(number)
-    correct_answer = "yes" if is_even(number) else "no"
-    return question, correct_answer
+from games.even import generate_question, GAME_RULES, is_even
 
 
 def main():

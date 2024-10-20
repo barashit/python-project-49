@@ -1,21 +1,8 @@
 #!/usr/bin/env python
 
-
-import random
-from brain_games.game_general import run_game
+from brain_games.game_general import run_game, ROUNDS_TO_WIN
 from brain_games.cli import welcome_user
-
-ROUNDS_TO_WIN = 3
-GAME_RULES = 'What is the result of the expression?'
-
-
-def generate_question():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
-    operation = random.choice(['+', '-', '*'])
-    question = f"{num1} {operation} {num2}"
-    correct_answer = str(eval(f"{num1} {operation} {num2}"))
-    return question, correct_answer
+from games.calc import generate_question, GAME_RULES
 
 
 def main():
