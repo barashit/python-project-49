@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+ROUNDS_TO_WIN = 3
+
+
 def run_game(generate_round_data, name, rounds=3):
 
     for _ in range(rounds):
