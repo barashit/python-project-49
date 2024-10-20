@@ -3,7 +3,7 @@
 import math
 from brain_games.game_general import run_game, ROUNDS_TO_WIN
 from brain_games.cli import welcome_user
-from games.gcd import generate_question, GAME_RULES
+from brain_games.games.gcd import generate_question, GAME_RULES
 
 
 def main():
