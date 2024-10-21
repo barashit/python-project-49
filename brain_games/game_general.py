@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 
+
+from brain_games.cli import welcome_user
+
+
 ROUNDS_TO_WIN = 3
 
 
-def run_game(game_module, name, rounds=3):
+def setup_game(game_module):
+    name = welcome_user()
     print(game_module.GAME_RULES)
+    return name
 
+
+def run_game(game_module, name, rounds=ROUNDS_TO_WIN):
     for _ in range(rounds):
         question, correct_answer = game_module.generate_question()
         print(f"Question: {question}")
