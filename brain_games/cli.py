@@ -1,5 +1,7 @@
 # brain_games/cli.py
+
 import prompt
+
 
 def welcome_user():
     print("Welcome to the Brain Games!")
