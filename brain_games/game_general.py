@@ -3,10 +3,11 @@
 ROUNDS_TO_WIN = 3
 
 
-def run_game(generate_round_data, name, rounds=3):
+def run_game(game_module, name, rounds=3):
+    print(game_module.GAME_RULES)
 
     for _ in range(rounds):
-        question, correct_answer = generate_round_data()
+        question, correct_answer = game_module.generate_question()
         print(f"Question: {question}")
 
         user_answer = input("Your answer: ").strip().lower()
@@ -19,5 +20,5 @@ def run_game(generate_round_data, name, rounds=3):
                 f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
-
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")

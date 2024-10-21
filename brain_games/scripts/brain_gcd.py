@@ -2,13 +2,12 @@
 
 from brain_games.game_general import run_game, ROUNDS_TO_WIN
 from brain_games.cli import welcome_user
-from brain_games.games.gcd import generate_question, GAME_RULES
+from brain_games.games.gcd import GAME_RULES
 
 
 def main():
     name = welcome_user()
-    print(GAME_RULES)
-    run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
+    run_game(__import__('brain_games.games.gcd'), name, rounds=ROUNDS_TO_WIN)
 
 
 if __name__ == "__main__":
