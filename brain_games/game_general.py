@@ -14,6 +14,7 @@ def setup_game(game_module):
 
 
 def run_game(game_module, name, rounds=ROUNDS_TO_WIN):
+    print(game_module.GAME_RULES) 
     for _ in range(rounds):
         question, correct_answer = game_module.generate_question()
         print(f"Question: {question}")
