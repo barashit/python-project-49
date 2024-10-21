@@ -7,7 +7,7 @@ from brain_games.games.even import generate_question, GAME_RULES
 
 def main():
     name = welcome_user()
-    run_game(__import__('brain_games.games.even'), name, rounds=ROUNDS_TO_WIN)
+    run_game(generate_question, name, rounds=ROUNDS_TO_WIN)
 
 
 if __name__ == "__main__":
