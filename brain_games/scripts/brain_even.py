@@ -2,8 +2,12 @@
 
 
 from brain_games.cli import welcome_user
-from brain_games.games import even  # Убедитесь, что импорт правильный
+from brain_games.games import even 
+
+def main():
+    name = welcome_user()
+    print(even.GAME_RULES)
+    run_game(even, name)
 
 if __name__ == "__main__":
-    name = setup_game(even)  # Передаем модуль even
-    run_game(even, name)
+    main()
