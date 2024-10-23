@@ -8,5 +8,6 @@ def main():
     name = setup_game(prime)
     run_game(prime, name)
 
+
 if __name__ == "__main__":
     main()
