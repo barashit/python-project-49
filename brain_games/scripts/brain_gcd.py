@@ -1,7 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-
-from brain_games.cli import welcome_user
 from brain_games.games import gcd
 from brain_games.game_general import run_game, setup_game
 
