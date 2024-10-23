@@ -7,7 +7,7 @@ from brain_games.game_general import run_game, setup_game
 
 
 def main():
-    name = setup_game(even)
+    name = setup_game(calc)
     run_game(calc, name)
 
 
