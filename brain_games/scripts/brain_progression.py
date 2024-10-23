@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
-from brain_games.game_general import run_game, ROUNDS_TO_WIN
+
 from brain_games.cli import welcome_user
-from brain_games.games.progression import generate_progression, GAME_RULES
+from brain_games.games import progression
+from brain_games.game_general import run_game, setup_game
 
 
 def main():
-    name = welcome_user()
-    print(GAME_RULES)
-    run_game(generate_progression, name, rounds=ROUNDS_TO_WIN)
+    name = setup_game(progression)
+    run_game(progression, name)
 
 
 if __name__ == "__main__":
