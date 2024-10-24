@@ -5,6 +5,7 @@ ROUNDS_TO_WIN = 3
 
 
 def setup_game(game_module):
+    name = welcome_user()
     print(game_module.GAME_RULES)
     return name
 
