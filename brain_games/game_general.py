@@ -4,13 +4,10 @@ from brain_games.cli import welcome_user
 ROUNDS_TO_WIN = 3
 
 
-def setup_game(game_module):
+def run_game(game_module, rounds=ROUNDS_TO_WIN):
     name = welcome_user()
     print(game_module.GAME_RULES)
-    return name
 
-
-def run_game(game_module, name, rounds=ROUNDS_TO_WIN):
     for _ in range(rounds):
         question, correct_answer = game_module.generate_question()
         print(f"Question: {question}")
@@ -24,6 +21,6 @@ def run_game(game_module, name, rounds=ROUNDS_TO_WIN):
                 f"'{user_answer}' is wrong answer ;. "
                 f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-
+            return
     else:
         print(f"Congratulations, {name}!")
