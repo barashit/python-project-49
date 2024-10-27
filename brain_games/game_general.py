@@ -5,7 +5,7 @@ ROUNDS_TO_WIN = 3
 
 
 def run_game(game_module, rounds=ROUNDS_TO_WIN):
-    name = welcome_user()
+    welcome_user()
     print(game_module.GAME_RULES)
 
     for _ in range(rounds):
@@ -20,8 +20,8 @@ def run_game(game_module, rounds=ROUNDS_TO_WIN):
             print(
                 f"'{user_answer}' is wrong answer ;. "
                 f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
+            print(f"Let's try again, {user_name}!")
             break
 
     else:
-        print(f"Congratulations, {name}!")
+        print(f"Congratulations, {user_name}!")
