@@ -1,11 +1,12 @@
-from brain_games.cli import welcome_user, user_name
+from brain_games.cli import GameCLI
 
 
 ROUNDS_TO_WIN = 3
 
 
 def run_game(game_module, rounds=ROUNDS_TO_WIN):
-    welcome_user()
+    cli = GameCLI()
+    cli.welcome_user()
     print(game_module.GAME_RULES)
 
     for _ in range(rounds):
