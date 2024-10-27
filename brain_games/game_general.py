@@ -1,4 +1,5 @@
 from brain_games.cli import welcome_user
+from cli import welcome_user, user_name
 
 
 ROUNDS_TO_WIN = 3

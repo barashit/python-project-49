@@ -2,6 +2,8 @@
 
 import prompt
 
+user_name = ""
+
 
 def welcome_user():
     global user_name
