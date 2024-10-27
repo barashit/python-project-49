@@ -25,4 +25,5 @@ def run_game(game_module, rounds=ROUNDS_TO_WIN):
             break
 
     else:
+        cli.get_user_name()
         print(f"Congratulations, {cli.user_name()}!")
