@@ -2,6 +2,7 @@
 
 import prompt
 
+
 class GameCLI:
     def __init__(self):
         self.user_name = ""
