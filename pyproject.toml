@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games is a set of games for developing logical and mathematical thinking. programming language - python. Installation and launch. Clone the repository. Install dependencies using pip or poetry. Launch the game using the command python -m brain_games."
 authors = ["barashit <prostopesna74@gmail.com>"]
 readme = "README.md"
 packages = [
