@@ -23,5 +23,5 @@ def run_game(game_module, rounds=ROUNDS_TO_WIN):
             print(f"Let's try again, {name}!")
             break
 
-    if _ == rounds - 1:
+    else:
         print(f"Congratulations, {name}!")
