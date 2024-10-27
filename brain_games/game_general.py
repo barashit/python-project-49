@@ -21,8 +21,8 @@ def run_game(game_module, rounds=ROUNDS_TO_WIN):
             print(
                 f"'{user_answer}' is wrong answer ;. "
                 f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {cli.user_name}!")
+            print(f"Let's try again, {cli.get_user_name()}!")
             break
 
     else:
-        print(f"Congratulations, {cli.user_name}!")
+        print(f"Congratulations, {cli.get.user_name()}!")
